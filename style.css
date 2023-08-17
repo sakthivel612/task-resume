@@ -1,0 +1,551 @@
+.head-container {
+  display: block;
+}
+.name-container {
+  justify-content: center;
+  background-color: rgb(68, 64, 64);
+  width: 100%;
+  font-size: 70px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px 50px 40px 20px;
+  color: white;
+}
+
+/* head */
+/* media query at head container max width 280px */
+@media screen and (max-width: 280px) {
+  .name-container {
+    width: 100%;
+    font-size: 25px !important;
+  }
+}
+
+/* media query at head container min width 280px */
+@media screen and (min-width: 280px) {
+  .name-container {
+    width: 100%;
+    font-size: 60px;
+  }
+}
+
+/* ---------------------------------------- */
+.body-container {
+  display: flex;
+}
+.container-one {
+  width: 40%;
+  padding: 30px;
+  background-color: rgb(43, 42, 42);
+  height: max-content;
+  color: white;
+}
+
+.contact {
+  padding: 0px 0px 0px 0px;
+  margin: 0;
+}
+.location_img {
+  width: 20px;
+  padding: 2px 7px 0px 5px;
+}
+.address {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+.mobile_number {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+.mobile_ringing_img {
+  width: 20px;
+  padding: 2px 7px 0px 5px;
+}
+.mail_box {
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+.mail_box_img {
+  width: 20px;
+  padding: 2px 7px 0px 5px;
+}
+
+.social_media {
+  padding: 0px 0px 0px 0px;
+  margin: 0;
+}
+.github {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding-top: 5px;
+}
+.github_img {
+  width: 30px;
+  padding: 2px 7px 0px 5px;
+}
+
+.linked_in {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding-top: 5px;
+}
+.linkedin_img {
+  width: 20px;
+  padding: 2px 7px 0px 5px;
+}
+
+.portfolio {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding-top: 5px;
+}
+.github_img {
+  width: 20px;
+  padding: 2px 7px 0px 5px;
+}
+
+.hobbies {
+  padding: 0px 0px 0px 0px;
+  margin: 0;
+}
+/* media query at body containers one max width 280px */
+@media screen and (max-width: 280px) {
+  /* .body-container{
+        width: 100%;
+    } */
+  .container-one {
+    width: 40%;
+    height: 600px !important;
+    padding: 30px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    box-sizing: border-box;
+  }
+  .contact {
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+  }
+  .location_img {
+    width: 15px;
+    padding: 2px 7px 0px 5px;
+    box-sizing: border-box;
+  }
+  .address {
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 5px;
+    box-sizing: border-box;
+  }
+  .mobile_number {
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 5px;
+    box-sizing: border-box;
+  }
+  .mobile_ringing_img {
+    width: 15px;
+    padding: 2px 7px 0px 5px;
+    box-sizing: border-box;
+  }
+  .mail_box {
+    margin: 0;
+    padding-bottom: 15px;
+    font-size: 5px;
+    box-sizing: border-box;
+  }
+  .mail_box_img {
+    width: 15px;
+    padding: 2px 7px 0px 5px;
+    box-sizing: border-box;
+  }
+  .skills {
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 7px;
+  }
+  .all_skill_sets {
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+  .skill_set {
+    font-size: 5px;
+    box-sizing: border-box;
+  }
+  .social_media {
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    font-size: 7px;
+    box-sizing: border-box;
+  }
+  .media {
+    font-size: 5px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .hobbies {
+    font-size: 7px;
+    box-sizing: border-box;
+  }
+  .sports_type {
+    font-size: 7px;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+  .languages_title {
+    font-size: 10px;
+    box-sizing: border-box;
+  }
+  .language_type {
+    font-size: 7px;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+}
+
+/*  media query at body containers one max width 280px */
+@media screen and (min-width: 280px) {
+  .container-one {
+    width: 40%;
+    height: 800px !important;
+    padding: 30px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    box-sizing: border-box;
+  }
+  .contact {
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  .location_img {
+    width: 25px;
+    padding: 2px 7px 0px 5px;
+    box-sizing: border-box;
+  }
+  .address {
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 10px;
+    box-sizing: border-box;
+  }
+  .mobile_number {
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 10px;
+    box-sizing: border-box;
+  }
+  .mobile_ringing_img {
+    width: 25px;
+    padding: 2px 7px 0px 5px;
+    box-sizing: border-box;
+  }
+  .mail_box {
+    margin: 0;
+    padding-bottom: 15px;
+    font-size: 10px;
+    box-sizing: border-box;
+  }
+  .mail_box_img {
+    width: 25px;
+    padding: 2px 7px 0px 5px;
+    box-sizing: border-box;
+  }
+  .skills {
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  .all_skill_sets {
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+  .skill_set {
+    font-size: 10px;
+    box-sizing: border-box;
+  }
+  .social_media {
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  .media {
+    font-size: 10px;
+    box-sizing: border-box;
+  }
+  .hobbies {
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  .sports_type {
+    font-size: 10px;
+    padding-left: 25px;
+    box-sizing: border-box;
+  }
+  .languages_title {
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  .language_type {
+    font-size: 10px;
+    box-sizing: border-box;
+    padding-left: 25px;
+  }
+}
+
+/* media query at body containers one max width 768px */
+@media screen and (min-width: 768px) {
+  .container-one {
+    width: 40%;
+    height: 800px !important;
+    padding: 30px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    box-sizing: border-box;
+  }
+  .contact {
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  .location_img {
+    width: 30px;
+    padding: 2px 7px 0px 5px;
+    box-sizing: border-box;
+  }
+  .address {
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  .mobile_number {
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  .mobile_ringing_img {
+    width: 30px;
+    padding: 2px 7px 0px 5px;
+    box-sizing: border-box;
+  }
+  .mail_box {
+    margin: 0;
+    padding-bottom: 15px;
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  .mail_box_img {
+    width: 30px;
+    padding: 2px 7px 0px 5px;
+    box-sizing: border-box;
+  }
+  .skills {
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+  .all_skill_sets {
+    padding-left: 40px;
+    box-sizing: border-box;
+  }
+  .skill_set {
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  .social_media {
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+  }
+  .media {
+    font-size: 15px;
+    box-sizing: border-box;
+    padding-left: 20px;
+  }
+  .hobbies {
+    font-size: 20px;
+    box-sizing: border-box;
+  }
+  .sports_type {
+    font-size: 15px;
+    padding-left: 40px;
+    box-sizing: border-box;
+  }
+  .languages_title {
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  .language_type {
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 25px;
+  }
+}
+/* ---------------------------------------------------------------- */
+
+.container-two {
+  width: 60%;
+  padding: 30px;
+  background-color: white;
+  height: max-content;
+  color: black;
+}
+.objective {
+  padding: 0px 0px 0px 0px;
+  margin: 0;
+}
+.objective_summery {
+  padding-left: 20px;
+}
+.education_details {
+  padding-left: 20px;
+}
+.full_stack_course {
+  padding-left: 20px;
+}
+.experience_details {
+  padding-left: 20px;
+}
+.project_1 {
+  padding-left: 20px;
+}
+
+/* media query at body container two max width 280px*/
+
+@media screen and (max-width: 280px) {
+  .container-two {
+    width: 60%;
+    height: 600px !important;
+    padding: 30px;
+    background-color: white;
+    height: max-content;
+    color: black;
+    box-sizing: border-box;
+  }
+  .objective {
+    padding: 0px 0px 0px 0px;
+    font-size: 10px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .objective_summery {
+    padding-left: 20px;
+    font-size: 7px;
+    box-sizing: border-box;
+  }
+  .education_title {
+    padding: 0px 0px 0px 0px;
+    font-size: 10px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .education_details {
+    padding-left: 20px;
+    font-size: 7px;
+    box-sizing: border-box;
+  }
+  .experience_title {
+    padding: 0px 0px 0px 0px;
+    font-size: 10px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .full_stack_course {
+    padding-left: 20px;
+    font-size: 7px;
+    box-sizing: border-box;
+  }
+  .experience_details {
+    padding-left: 20px;
+    font-size: 7px;
+    box-sizing: border-box;
+  }
+  .project_title {
+    padding: 0px 0px 0px 0px;
+    font-size: 10px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .project_1 {
+    padding-left: 20px;
+    font-size: 7px;
+    box-sizing: border-box;
+  }
+}
+
+/* media query at body containers two max width 768px */
+@media screen and (max-width: 768px) {
+  .container-two {
+    width: 60% !important;
+    height: 800px !important;
+    padding: 30px;
+    background-color: white;
+    height: max-content;
+    color: black;
+    box-sizing: border-box;
+  }
+  .objective {
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .objective_summery {
+    padding-left: 20px;
+    font-size: 10px;
+    box-sizing: border-box;
+  }
+  .education_title {
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .education_details {
+    padding-left: 20px;
+    font-size: 10px;
+    box-sizing: border-box;
+  }
+  .experience_title {
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .full_stack_course {
+    padding-left: 20px;
+    font-size: 9px;
+    box-sizing: border-box;
+  }
+  .experience_details {
+    padding-left: 20px;
+    font-size: 9px;
+    box-sizing: border-box;
+  }
+  .project_title {
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .project_1 {
+    padding-left: 20px;
+    font-size: 9px;
+    box-sizing: border-box;
+  }
+}
